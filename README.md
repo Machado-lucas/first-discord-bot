@@ -52,9 +52,9 @@ Depois crie um arquivo chamado **.env** e crie esta estrutura dentro dele:
 
 ### Mas onde eu consigo essas chaves?
 
-TOKEN: acredito que você já tenha ela, já que falei pra você salvar ela
-CLIENT_ID: Clicando em OAuth2, logo ao lado vai aparecer o CLIENT_ID
-GUILD_ID: Sempre que você ver algo relacionado a guild, é algo relacionado ao servidor que você deseja testar, ele não é mandatório mas eu utilizei neste projeto, estudando um pouco mais eu acho que não vai precisar dele em todos os bots (posso estar enganado). Tá blz cara mas onde eu pego ele? Vá no servidor de testes que você está desenvolvendo o bot, clica com o botão direito do mouse em cima do título e vai em copiar id, como na imagem abaixo
+-   TOKEN: acredito que você já tenha ela, já que falei pra você salvar ela
+-   CLIENT_ID: Clicando em OAuth2, logo ao lado vai aparecer o CLIENT_ID
+-   GUILD_ID: Sempre que você ver algo relacionado a guild, é algo relacionado ao servidor que você deseja testar, ele não é mandatório mas eu utilizei neste projeto, estudando um pouco mais eu acho que não vai precisar dele em todos os bots (posso estar enganado). Tá blz cara mas onde eu pego ele? Vá no servidor de testes que você está desenvolvendo o bot, clica com o botão direito do mouse em cima do título e vai em copiar id, como na imagem abaixo
 
 ![Screenshot_6](https://github.com/Machado-lucas/first-discord-bot/assets/51510946/bb53f297-be3c-4bf7-b34d-9e7c1e460cfe)
 
@@ -77,3 +77,9 @@ E depois rodar o arquivo principal, o index.js
 ```
 node index.js
 ```
+
+Depois podemos ir para o nosso queridíssimo servidor do discord e rodar o nosso (e único) comando /ping
+
+![Screenshot_7](https://github.com/Machado-lucas/first-discord-bot/assets/51510946/9c5605db-18f0-4f11-97eb-c6e75bc26652)
+
+**Nota:** este /ping é equivalente ao Hello World das linguagens de programação!
